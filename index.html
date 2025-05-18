@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="img/city.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">   
+    </head>
+    <body>
+        <div class="bo">
+            
+            <div class="logo">
+                <a>CITY MAZE</a>
+            </div>
+            <div class="holder">
+                    <div class="maze">
+                        <div class="ho">
+                            
+                            <canvas id="canvas" width="484px" height="484px">
+                            </canvas>
+                            <canvas id="canvas2" width="484px" height="484px">
+                            </canvas>
+                            
+
+                        </div>
+            </div>
+                <div class="console">
+                    <div class="buttons text">
+                        <button type="button" class="solve gate-button" id="sol" onclick="drawSolution();" >SOLVE</button>
+                        <button class="play" id="play" onclick="premikCh(); gemend=false;">PLAY</button>
+                        <button class="reset" onclick="window.location.reload();">RESET</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js">
+        
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</html>
