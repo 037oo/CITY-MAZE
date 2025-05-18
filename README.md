@@ -2,12 +2,12 @@
 # 🧭 Maze Drawing Project
 
 This is a simple web-based project that draws a maze using the HTML `<canvas>` element and JavaScript. It reads a set of coordinates and draws lines between them to form the structure of the maze.
+![image](https://github.com/user-attachments/assets/517d668d-0662-4559-85f3-8ab753575941)
+
 
 ## 📌 Project Description
 
-The project displays a maze by rendering lines based on predefined coordinates. Each line segment is defined by four values: the starting point `(x1, y1)` and the ending point `(x2, y2)`.
-
-It was created as a high school assignment.
+The project displays a maze by rendering lines based on predefined coordinates. It was created as a high school assignment.
 
 ## 🛠️ Technologies Used
 
@@ -21,10 +21,6 @@ It was created as a high school assignment.
 - When the page loads, the JavaScript code iterates over each set of coordinates and draws the corresponding lines on the canvas.
 - The maze appears automatically without the need for user interaction.
 
-### Example Line Definition:
-
-```js
-[2, 2, 226, 2] // Draws a line from (2, 2) to (226, 2)
 
 🚀 How to Run the Project
 
